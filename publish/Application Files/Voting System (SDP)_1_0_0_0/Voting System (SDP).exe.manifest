@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Voting System (SDP).exe" version="1.0.0.0" publicKeyToken="9eb30397eeb89f74" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Voting System (SDP)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Voting System (SDP).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Voting System (SDP).exe" size="4239320">
+      <assemblyIdentity name="Voting System (SDP)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9ngMHekycE7auvUH0NyIgVUB9YWXWGhYAIZTomiwvRs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Voting System (SDP).exe.config" size="575">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YP0YXqBdbp/fEmK8KUCc/Fwk78xLgyXc1dVde9oPe9k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-NMF9NAR\DELL" issuerKeyHash="3ce68005bece9c67b02a27f113e672f3a6e4d57f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>deRR9C+h/PxK1vuWUyLivY1LXtWZs0yM3yUe59SHlCI=</DigestValue></Reference></SignedInfo><SignatureValue>b5jVe4f4ubdwwLawxul2rRvNiZdWNVYMhewxJiWQjLMFmt3UZuW2ItmObLN0JkqrcCk4sBy0MXZgpGLFKQYN+aK69V6RpFHXhXxzkXaciJWTSTNXcGyMN83H/iD8PwamRlc6MOg0vD9GXtW74v8CW7Q8pEahMdm/K0hUWAPD2Bs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>us20FsNd51GKNYCi+xgH9CqpSS6XH1PEA10cssVI+UIxrSLZkzrtD+NdDS41fZaV8qRehiqbmmckyml6GGP+GDSdMFnnmy2FaabWb+TDFJXJbS2Sln0C9Sh0SKCqcSfw4iMYYj1jNbYW5WdPLLu3En/8D0x+VK0eMOWeAsarZK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="229487d4e71e25df8c4cb399d55e4b8dbde2225396fbd64afcfca12ff451e475" Description="" Url=""><as:assemblyIdentity name="Voting System (SDP).exe" version="1.0.0.0" publicKeyToken="9eb30397eeb89f74" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-NMF9NAR\DELL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sLY12OsknCxxzIEQOtM8lsxjK9yV5kjv863V98zCANo=</DigestValue></Reference></SignedInfo><SignatureValue>qDVhhNhXc/GTNnRg1CvJeIjMRl8KW6T4pbWGF8Q6XfjZ9pla7zW01/QbuGdhwfcqcas7NNfHLpyd62t88myX/KIuOYfMxSyGnWwJJAOKy+pFro19sv6EmQZbqn/5+lpGnOlUeFTYCzKdGTQoMEO81jBUju2a8Xg0r8LXF4gRsSM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>us20FsNd51GKNYCi+xgH9CqpSS6XH1PEA10cssVI+UIxrSLZkzrtD+NdDS41fZaV8qRehiqbmmckyml6GGP+GDSdMFnnmy2FaabWb+TDFJXJbS2Sln0C9Sh0SKCqcSfw4iMYYj1jNbYW5WdPLLu3En/8D0x+VK0eMOWeAsarZK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPHivr2GvXppGLWFV6WhhCzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE4ATQBGADkATgBBAFIAXABEAEUATABMMB4XDTI0MDYwNjA3MzUxMVoXDTI1MDYwNjEzMzUxMVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBOAE0ARgA5AE4AQQBSAFwARABFAEwATDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAus20FsNd51GKNYCi+xgH9CqpSS6XH1PEA10cssVI+UIxrSLZkzrtD+NdDS41fZaV8qRehiqbmmckyml6GGP+GDSdMFnnmy2FaabWb+TDFJXJbS2Sln0C9Sh0SKCqcSfw4iMYYj1jNbYW5WdPLLu3En/8D0x+VK0eMOWeAsarZK0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCq0cfBa+FqStsbaPThX2QMRKdljlvkj94ubYjJwqT59xkYJFHSgPgMCRkSQTJyNW3IDxpCnrjj33cJkSD8c5DoV3iYLvW0+8vm27uDTC26yeIKfacKavg77eu7Qnf0poV4OagOvBN+XYx3g5QirbGo89tEhQAAZhrjP7YEWy7hqw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

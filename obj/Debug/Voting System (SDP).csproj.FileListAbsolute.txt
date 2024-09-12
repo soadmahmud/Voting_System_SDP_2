@@ -1,0 +1,21 @@
+D:\SDP\Voting System (SDP)\bin\Debug\Voting System (SDP).exe.config
+D:\SDP\Voting System (SDP)\bin\Debug\Voting System (SDP).exe
+D:\SDP\Voting System (SDP)\bin\Debug\Voting System (SDP).pdb
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).csproj.AssemblyReference.cache
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.Form1.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.Properties.Resources.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).csproj.GenerateResource.cache
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).csproj.CoreCompileInputs.cache
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).exe
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).pdb
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.Registration.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.admin_panel.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.new_vote.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.add_candidate.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.all_user.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.voter.resources
+D:\SDP\Voting System (SDP)\obj\Debug\Voting_System__SDP_.voting_page.resources
+D:\SDP\Voting System (SDP)\bin\Debug\Voting System (SDP).exe.manifest
+D:\SDP\Voting System (SDP)\bin\Debug\Voting System (SDP).application
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).exe.manifest
+D:\SDP\Voting System (SDP)\obj\Debug\Voting System (SDP).application
